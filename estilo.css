@@ -1,0 +1,249 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background: #F0F2F5;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+h2{
+    font-family: Helvetica;
+    color:#1877F2;
+    font-size: 40px; 
+    padding: 0px 10px;
+}
+.inicios-texto{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px; 
+    padding: 0px 0px 0px 10px;;
+}
+.foto-agregar-cuenta{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px; 
+    padding: 0px 0px 10px 10px;
+}
+.fila{
+    margin: auto;
+    
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px 10px 0px 0px;
+}
+.columna{
+    float: left;
+    width: 150px;
+    padding: 10px;
+}
+.card{
+    height: 150px;
+    width: auto;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-radius: 10px 10px 0px 0px;
+    font-family: 'Lato', sans-serif;
+}
+.nombre-cuenta{
+    background: #FFFFFF;
+    height: 40px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 20px;
+    padding: 5px 0px 0px 0px;
+}
+.agregar-cuenta{
+    background: #FFFFFF;
+    height: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color:#1976F2;
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 10px;
+}
+.fa-plus-circle{
+    color:#1976F2;
+    font-size: 40px;
+    width: 150px;
+    margin: 55px 0px 55px 0px;
+}
+.fa-times{
+    color:#FFFFFF;
+    font-size: 10px;
+    align-items: center;
+    margin-left: 4px;
+    margin-top: 2px;
+}
+span{
+    position: absolute;
+    display:flex;
+}
+.x{
+    margin:5px;
+    width: 15px;
+    height: 15px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #333333;
+    opacity: 0.5;
+}
+.tres{
+    width: 25px;
+    height: 25px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #FA3E3E;
+    color:#FFFFFF;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    margin: 0% 10%;
+}
+.p-tres{
+    margin-left: 8px;
+    margin-top: 2px;
+}
+.login{
+    width: 350px;
+    height: 320px;
+    background: #FFFFFF;
+    margin-left: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 30px -20px rgba(0,0,0,1);
+}
+input{
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #c7c7c7;
+}
+input:focus {
+    border: 1px solid rgb(66, 197, 236);
+    outline:#1877F2 solid 0.5px;
+}
+.correo{
+    padding: 4%;
+    width: 315px;
+    font-family: "Corbel";
+    font-size: 18px;
+}
+.contraseña{
+    padding: 4%;
+    width: 315px;
+    font-family: "Corbel";
+    font-size: 18px;
+}
+.iniciar-sesion{
+    background-color: #1976F2;
+    padding: 2% 32% 2% 32%;
+    font-size: 22px;
+}
+.crear-cuenta{
+    margin: 20px 24% 0% 24%;
+    background-color: #51c03b;
+    padding: 2% 4% 2% 4%;
+    font-size: 18px;
+}
+button{
+    margin-top: 20px;
+    border: none;
+    outline:none;
+    color:#FFFFFF;
+    border-radius: 5px;
+    font-family: "Corbel";
+    font-weight: bold;
+}
+
+.linea{
+    width: 350px;
+    height: 1px;
+    background: rgb(206, 206, 206);
+    margin-top: 20px;
+}
+.olvidaste-contraseña{
+    text-align: center;
+    color:#1976F2;
+    font-family: "Corbel";
+    margin-top: 20px;
+}
+.crear-pagina{
+    margin-top: 30px;
+    font-family: "Corbel";
+    text-align: center;
+    font-size: 14px;
+}
+@media screen and (max-width: 600px) {
+    .contenedor{
+        display: block;
+    }
+    .login{
+        margin:50% 10% 0% 10%;
+    }
+    .inicios-recientes{
+        margin:0% 12% 0% 0%;
+        width: 100%;
+    }
+
+    h2,.inicios-texto,.foto-agregar-cuenta{
+        text-align: center;
+    }
+    .columna{
+        width: 100px;
+        height: 100px;
+    }
+    .fila{
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    .card{
+        width: 100px;
+        height: 100px;
+    }
+    .nombre-cuenta{
+        font-size: 12px;
+    }
+    .agregar-cuenta{
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .fa-plus-circle{
+        font-size: 20px;
+        width: 100px;
+        margin:40px 0px 40px 0px;
+    }
+    .login{
+        width: 80%;
+        margin:20% 5%;
+    }
+    .linea{
+        width: 100%;
+    }
+    .correo, .contraseña{
+        width: 90%;
+    }
+    .iniciar-sesion{
+        font-size: 18px;
+    }
+    .crear-cuenta{
+        font-size: 14px;
+    }
+    .tres{
+        margin: 0% 23%;
+    }
+    .correo, .contraseña{
+        font-size: 16px;
+    }
+    .crear-pagina{
+        margin-top: 50px;
+    }
+}
